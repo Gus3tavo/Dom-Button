@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #e0c3fc;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #356ed8;
+    color: white;
+    font-size: 1.5em;
+    width: 30%;
+    height: 10%;
+    border: none;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: flex;
+    color: white;
+    background-color: #707070;
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: .5em;
+}
